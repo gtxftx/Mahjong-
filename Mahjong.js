@@ -20,6 +20,8 @@ const shuffleTiles = () => {
 // Deal the tiles to the players
 const players = [];
 const numOfPlayers = 4;
+const numOfPlayers = 2;
+const numOfPlayers = 4;
 for (let i = 0; i < numOfPlayers; i++) {
   players[i] = [];
 }
