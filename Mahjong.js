@@ -9,7 +9,7 @@ suits.forEach((suit) => {
   });
 });
 
-// Shuffle the tile set
+// Shuffle the tile set 
 const shuffleTiles = () => {
   for (let i = tiles.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -17,7 +17,7 @@ const shuffleTiles = () => {
   }
 };
 
-// Deal the tiles to the players
+// Deal the tiles to the players (any)
 const players = [];
 const numOfPlayers = 4;
 const numOfPlayers = 2;
